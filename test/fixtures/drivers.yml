@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  grupo: MyString
+  adelantamiento: 1
+  defender: 1
+  consistencia: 1
+  gestion_combustible: 1
+  gestion_neumaticos: 1
+  capacidad_clima_humeda: 1
+  equipo: MyString
+
+two:
+  nombre: MyString
+  grupo: MyString
+  adelantamiento: 1
+  defender: 1
+  consistencia: 1
+  gestion_combustible: 1
+  gestion_neumaticos: 1
+  capacidad_clima_humeda: 1
+  equipo: MyString
