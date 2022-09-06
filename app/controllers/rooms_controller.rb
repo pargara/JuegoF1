@@ -1,5 +1,6 @@
 class RoomsController < ApplicationController
   before_action :set_room, only: %i[ show edit update destroy ]
+  attr_accessor :owner_room
 
   # GET /rooms or /rooms.json
   def index
@@ -22,6 +23,7 @@ class RoomsController < ApplicationController
   # POST /rooms or /rooms.json
   def create
     @room = Room.new(room_params)
+    @room.user = current_user
 
     respond_to do |format|
       if @room.save
