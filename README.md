@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version: 3.0.3
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Documentacion del repo
+    - Notas generales del funcionamiento https://www.notion.so/1b9fd2c2cc4f489eac2f5357b9e55a96?v=a04b48f6f40448459caca1832a89ffc7
+    - Documentos https://www.notion.so/caf758c9c4bb4af3a52c2696b86d05ec?v=fb31fd249c024a18a8f2a04558c127b9
+    - Todos https://www.notion.so/ce7229c7789849a7b14ae525bc5483cb?v=92c3b72a323e4351a7785dfc8d9f50e2
