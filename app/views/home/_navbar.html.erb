@@ -10,10 +10,10 @@
       <% if user_signed_in? %>
        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Cuenta
+            Cuenta <%= User.name %>
           </a>
-          <ul class="dropdown-menu">
-            <li><%= link_to 'Cerrar Sesion', destroy_user_session_path, class:"nav-link", data: { turbo_method: :delete } %></li>
+          <ul class="dropdown-menu" style="background-color: #004225">
+            <li><%= link_to 'Cerrar Sesion', destroy_user_session_path, class:"nav-link dark", data: { turbo_method: :delete } %></li>
             <li><%= link_to "Editar Cuenta", edit_user_registration_path %></li>
           </ul>
         </li>
