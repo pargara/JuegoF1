@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://www.notion.so/
+HostUrl=https://s3.us-west-2.amazonaws.com/secure.notion-static.com/43f93e3a-b9be-402a-9e25-4c9eb3327e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220907T204447Z&X-Amz-Expires=86400&X-Amz-Signature=4456b9f5c1ba246140f9a609a458448f6c03f47be95e5bce6bb07bb9fd476249&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%20%3D%22Untitled.png%22&x-id=GetObject
