@@ -2,6 +2,7 @@
 #
 
 Rails.application.routes.draw do
+  get 'game/index'
   resources :rooms
   devise_for :users
   get 'pilotos/index'
