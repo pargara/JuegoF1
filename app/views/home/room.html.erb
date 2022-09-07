@@ -1,12 +1,13 @@
 <main class="container">
     <div class="mt-5 p-5">
-     <%= image_tag "Diseño sin título.png", height: 400, length: 300 %>
+        <%= image_tag "Diseño sin título.png", height: 400, length: 300 %>
     </div>
-
-
-<div class="position-absolute start-50 translate-middle mx-auto mb-5">
-<a class="btn btn-outline-success" href="#">
-    <font style="vertical-align: inherit;">Crear sala</font>
-</a>
-</div>
+    <div class="position-absolute start-50 translate-middle mx-auto mb-5">
+        <div class="btn-group">
+            <%= button_to "Ver Pilotos", pilotos_index_path, :class => "btn btn-success stretched-link", :method => :get %>
+        </div>
+        <div class="btn-group">
+            <%= button_to "Crear Sala", new_room_path, :class => "btn btn-success stretched-link", :method => :get %>
+        </div>
+    </div>
 </main>

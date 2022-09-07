@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ .jugador1 {
+    fill: rgb(36, 187, 81);
+    stroke: rgb(250, 1, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    position: absolute;
+    overflow: visible;
+    width: 192px;
+    height: 187px;
+    left: 61px;
+    top: 78px;
+}
