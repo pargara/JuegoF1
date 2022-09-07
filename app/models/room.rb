@@ -4,8 +4,9 @@
 #
 #  id         :integer          not null, primary key
 #  user_id    :integer          not null
-#  drivers_id :integer          not null
-#  owner_id   :integer
+#  drivers_id :integer
+#  room_hex   :integer
+#  nombre     :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #

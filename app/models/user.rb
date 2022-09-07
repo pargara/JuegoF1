@@ -10,6 +10,7 @@
 #  remember_created_at    :datetime
 #  name                   :string
 #  role                   :integer
+#  hex_room               :integer
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #
