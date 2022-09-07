@@ -10,6 +10,7 @@ class CreateDrivers < ActiveRecord::Migration[7.0]
       t.integer :gestion_neumaticos
       t.integer :capacidad_clima_humeda
       t.string :equipo
+      t.text :url
 
       t.timestamps
     end

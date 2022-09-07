@@ -11,15 +11,24 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :user_id, style: "display: block" %>
+ <div>
+  <!--   <%= form.label :user_id, style: "display: block" %>
     <%= form.text_field :user_id %>
-  </div>
+  </div> -->
 
   <div>
+    <%= form.label :Nombre_de_la_sala, style: "display: block" %>
+    <%= form.text_field :nombre %>
+  </div> 
+
+
+
+  <!-- 
+    <div>
     <%= form.label :drivers_id, style: "display: block" %>
-    <%= form.text_field :drivers_id %>
+    <%= form.text_field :driver_id %>
   </div>
+  -->
 
   <div>
     <%= form.submit %>

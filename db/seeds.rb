@@ -9,8 +9,10 @@
 Driver.destroy_all
 
 Driver.create!([{
+    url: "https://i.ibb.co/KhWv9T0/perfil-charles-leclerc-2022-soymotor.png",
+    id: "1",
     nombre: "Charles Leclerc",
-    grupo: "2c",
+    grupo: "2B",
     adelantamiento: "27",
     consistencia: "35",
     defender: "29",
@@ -20,8 +22,10 @@ Driver.create!([{
     equipo: "ferrari"
 },
 {
+    url: "https://i.ibb.co/QY2pVcf/carlos-sainz-jr-ferrari-1.jpg",
+    id: "2",
     nombre: "Carlos Sainz",
-    grupo: "",
+    grupo: "2C",
     adelantamiento: "23",
     consistencia: "31",
     defender: "34",
@@ -31,8 +35,10 @@ Driver.create!([{
     equipo: "ferrari"
 },
 {
+    url: "https://i.ibb.co/BsPFV6P/perfil-valtteri-bottas-2022-soymotor.png",
+    id: "3",
     nombre: "Valtteri Bottas",
-    grupo: "",
+    grupo: "1A",
     adelantamiento: "21",
     consistencia: "18",
     defender: "29",
@@ -42,8 +48,10 @@ Driver.create!([{
     equipo: "Alfa Romeo"
 },
 {
+    url: "https://i.ibb.co/W2W92hq/guanyu-zhou-alfa-romeo-1.jpg",
+    id: "4",
     nombre: "Guanyo Zhou",
-    grupo: "",
+    grupo: "1B",
     adelantamiento: "8",
     consistencia: "8",
     defender: "6",
@@ -53,8 +61,10 @@ Driver.create!([{
     equipo: "Alfa Romeo"
 },
 {
+    url: "https://i.ibb.co/cFJ0Sdk/descarga.jpg",
+    id: "5",
     nombre: "Fernando Alonso",
-    grupo: "",
+    grupo: "1C",
     adelantamiento: "31",
     consistencia: "28",
     defender: "32",
@@ -64,8 +74,10 @@ Driver.create!([{
     equipo: "Alpine"
 },
 {
+    url: "https://i.ibb.co/G0M008T/esteban-ocon-alpine-1.jpg",
+    id: "6",
     nombre: "Esteban Ocon",
-    grupo: "",
+    grupo: "1D",
     adelantamiento: "19",
     consistencia: "33",
     defender: "30",
@@ -75,8 +87,10 @@ Driver.create!([{
     equipo: "Alpine"
 },
 {
+    url: "https://i.ibb.co/jf8zJLG/pierre-gasly-alphatauri-1.jpg",
+    id: "7",
     nombre: "Pierre Gasly",
-    grupo: "",
+    grupo: "1E",
     adelantamiento: "28",
     consistencia: "26",
     defender: "36",
@@ -86,8 +100,10 @@ Driver.create!([{
     equipo: "Alpha Tauri"
 },
 {
+    url: "https://i.ibb.co/KXYBfHS/yuki-tsunoda-alphatauri-1.jpg",
+    id: "8",
     nombre: "Yuki Tsunoda",
-    grupo: "",
+    grupo: "1F",
     adelantamiento: "19",
     consistencia: "23",
     defender: "20",
@@ -97,8 +113,10 @@ Driver.create!([{
     equipo: "Alpha Tauri"
 },
 {
+    url: "https://i.ibb.co/BtGkMq3/sebastian-vettel-aston-martin-1.jpg",
+    id: "9",
     nombre: "Sebastian Vettel",
-    grupo: "",
+    grupo: "1G",
     adelantamiento: "26",
     consistencia: "26",
     defender: "27",
@@ -108,8 +126,10 @@ Driver.create!([{
     equipo: "Aston Martin F1"
 },
 {
+    url: "https://i.ibb.co/VggJq6J/lance-stroll-aston-martin-1.jpg",
+    id: "10",
     nombre: "Lance Stroll",
-    grupo: "",
+    grupo: "1H",
     adelantamiento: "24",
     consistencia: "21",
     defender: "25",
@@ -119,8 +139,10 @@ Driver.create!([{
     equipo: "Aston Martin F1"
 },
 {
+    url: "https://i.ibb.co/QpDdmyT/perfil-kevin-magnussen-2022-soymotor-1-1.png",
+    id: "11",
     nombre: "Kevin Magnussen",
-    grupo: "",
+    grupo: "2A",
     adelantamiento: "7",
     consistencia: "4",
     defender: "15",
@@ -130,8 +152,10 @@ Driver.create!([{
     equipo: "Hass"
 },
 {
+    url: "https://i.ibb.co/VTv4WMW/mick-schumacher-haas-f1-team-1.jpg",
+    id: "12",
     nombre: "Mick Schumacher",
-    grupo: "",
+    grupo: "2D",
     adelantamiento: "10",
     consistencia: "2",
     defender: "7",
@@ -140,9 +164,11 @@ Driver.create!([{
     capacidad_clima_humeda: "9",
     equipo: "Hass"
 },
-{
+{    
+    url: "https://i.ibb.co/w6dX5xM/lando-norris-mclaren-1.jpg",
+    id: "13",
     nombre: "Lando Norris",
-    grupo: "",
+    grupo: "2E",
     adelantamiento: "30",
     consistencia: "28",
     defender: "32",
@@ -152,8 +178,10 @@ Driver.create!([{
     equipo: "Mclaren F1"
 },
 {
+    url: "https://i.ibb.co/WvZTgLb/daniel-ricciardo-mclaren-1.jpg",
+    id: "14",
     nombre: "Daniel Ricciardo",
-    grupo: "",
+    grupo: "2F",
     adelantamiento: "21",
     consistencia: "25",
     defender: "23",
@@ -163,8 +191,10 @@ Driver.create!([{
     equipo: "Mclaren F1"
 },
 {
+    url: "https://i.ibb.co/2Njp0w9/lewis-hamilton-mercedes-1.jpg",
+    id: "15",
     nombre: "Lewis Hamilton",
-    grupo: "",
+    grupo: "2G",
     adelantamiento: "32",
     consistencia: "38",
     defender: "36",
@@ -174,8 +204,10 @@ Driver.create!([{
     equipo: "Mercedes Benz F1"
 },
 {
+    url: "https://i.ibb.co/p1D19f8/george-russell-mercedes-1.jpg",
+    id: "16",
     nombre: "George Russel",
-    grupo: "",
+    grupo: "2H",
     adelantamiento: "33",
     consistencia: "31",
     defender: "39",
@@ -185,8 +217,10 @@ Driver.create!([{
     equipo: "Mercedes Benz F1"
 },
 {
+    url: "https://i.ibb.co/c1PsMBP/max-verstappen-red-bull-racing-1.jpg",
+    id: "17",
     nombre: "Max Verstappen",
-    grupo: "",
+    grupo: "3A",
     adelantamiento: "36",
     consistencia: "32",
     defender: "36",
@@ -196,8 +230,10 @@ Driver.create!([{
     equipo: "RedBull F1"
 },
 {
+    url: "https://i.ibb.co/9NGZcYf/sergio-perez-red-bull-racing-1-1.jpg",
+    id: "18",
     nombre: "Sergio Perez",
-    grupo: "",
+    grupo: "3B",
     adelantamiento: "26",
     consistencia: "33",
     defender: "28",
@@ -207,6 +243,8 @@ Driver.create!([{
     equipo: "RedBull F1"
 },
 {
+    url: "https://i.ibb.co/bBPc57K/Nicholas-Latifi.jpg",
+    id: "19",
     nombre: "Nicholas Latifi",
     grupo: "",
     adelantamiento: "9",
@@ -218,6 +256,8 @@ Driver.create!([{
     equipo: "Williams F1"
 },
 {
+    url:"https://i.ibb.co/xY6Tq7j/alex-albon-williams-racing-1.jpg",
+    id: "20",
     nombre: "Alex Albon",
     grupo: "",
     adelantamiento: "9",

@@ -32,6 +32,16 @@
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
 
+  <div class="field">
+    <%= f.label :Codigo_Juego %><br />
+    <%= f.password_field :hex_room %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :Nombre %><br />
+    <%= f.text_field :name %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Update" %>
   </div>
