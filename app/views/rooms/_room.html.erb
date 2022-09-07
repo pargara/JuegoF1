@@ -1,12 +1,19 @@
-<div id="<%= dom_id room %>">
-  <p>
-    <strong>User:</strong>
-    <%= room.user_id %>
-  </p>
+<div class="container">
+  <div id="<%= dom_id room %>">
+    <p>
+      <strong>Creador de la sala</strong>
+      <%= room.user_id %>
+    </p>
 
-  <p>
-    <strong>Drivers:</strong>
-    <%= room.drivers_id %>
-  </p>
+    <p>
+      <strong>Nombre de la sala</strong>
+      <%= room.nombre %>
+    </p>
 
+    <p>
+      <strong>Codigo de la sala</strong>
+      #<%= room.room_hex %>
+    </p>
+
+  </div>
 </div>

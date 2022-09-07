@@ -66,7 +66,9 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_06_192533) do
 
   create_table "rooms", force: :cascade do |t|
     t.integer "user_id", null: false
-    t.integer "drivers_id", null: false
+    t.integer "drivers_id"
+    t.integer "room_hex"
+    t.string "nombre"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["drivers_id"], name: "index_rooms_on_drivers_id"

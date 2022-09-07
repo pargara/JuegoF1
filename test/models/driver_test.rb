@@ -12,6 +12,7 @@
 #  gestion_neumaticos     :integer
 #  capacidad_clima_humeda :integer
 #  equipo                 :string
+#  url                    :text
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #
