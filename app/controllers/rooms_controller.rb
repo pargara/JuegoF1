@@ -4,7 +4,6 @@ class RoomsController < ApplicationController
   attr_accessor :owner_room
   require 'securerandom'
 
-
   # GET /rooms or /rooms.json
   def index
     @rooms = Room.all

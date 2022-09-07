@@ -18,6 +18,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
       ## Cosas del proyecto
       t.string :name
       t.integer :role
+      t.integer :hex_room
       ## Trackable
       # t.integer  :sign_in_count, default: 0, null: false
       # t.datetime :current_sign_in_at
