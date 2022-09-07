@@ -76,6 +76,7 @@ GEM
     bootsnap (1.13.0)
       msgpack (~> 1.2)
     builder (3.2.4)
+    cancancan (3.4.0)
     capybara (3.37.1)
       addressable
       matrix
@@ -97,6 +98,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-guests (0.8.1)
+      devise
     digest (3.1.0)
     erubi (1.11.0)
     ffi (1.15.5)
@@ -240,9 +243,11 @@ PLATFORMS
 DEPENDENCIES
   annotate
   bootsnap
+  cancancan
   capybara
   debug
   devise
+  devise-guests (~> 0.8.1)
   image_processing (~> 1.2)
   importmap-rails
   jbuilder

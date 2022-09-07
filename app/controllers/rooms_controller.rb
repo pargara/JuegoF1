@@ -1,6 +1,8 @@
 class RoomsController < ApplicationController
   before_action :set_room, only: %i[ show edit update destroy ]
+  before_action :authenticate_user!
   attr_accessor :owner_room
+  require 'securerandom'
 
   # GET /rooms or /rooms.json
   def index
@@ -23,7 +25,15 @@ class RoomsController < ApplicationController
   # POST /rooms or /rooms.json
   def create
     @room = Room.new(room_params)
+
+   # Con esto hago que el usuario actual que cree la sala sea el dueño de la sala
     @room.user = current_user
+
+    # Con esto lo doy un hex a la sala
+    # room_hex = SecureRandom.hex(5)
+    # room_hex = SecureRandom.random_number(6)
+    room_hex = rand(1000..9999)
+    @room.room_hex = room_hex
 
     respond_to do |format|
       if @room.save
@@ -67,6 +77,6 @@ class RoomsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def room_params
-      params.require(:room).permit(:user_id, :drivers_id)
+      params.require(:room).permit(:user_id, :nombre)
     end
 end
