@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   devise_for :users
   get 'pilotos/index'
   get 'home/room'
-  root 'home#index'
+  root 'home#room'
   get 'pilotos/card'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
