@@ -49,13 +49,9 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem "image_processing", "~> 1.2"
 
-gem 'devise-guests', '~> 0.8.1'
-
 gem 'cancancan'
 
 # Añadidos
-
-gem 'stimulus-rails'
 
 # Gema para visualizar el esquema de los modelos
 group :development do

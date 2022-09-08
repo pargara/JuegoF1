@@ -59,13 +59,17 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_06_192533) do
     t.integer "gestion_neumaticos"
     t.integer "capacidad_clima_humeda"
     t.string "equipo"
+    t.text "url"
+    t.integer "total"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "rooms", force: :cascade do |t|
     t.integer "user_id", null: false
-    t.integer "drivers_id", null: false
+    t.integer "drivers_id"
+    t.integer "room_hex"
+    t.string "nombre"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["drivers_id"], name: "index_rooms_on_drivers_id"
@@ -80,6 +84,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_06_192533) do
     t.datetime "remember_created_at"
     t.string "name"
     t.integer "role"
+    t.integer "hex_room"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true

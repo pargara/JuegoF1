@@ -19,6 +19,7 @@ Driver.create!([{
     gestion_combustible: "37",
     gestion_neumaticos: "42",
     capacidad_clima_humeda: "28",
+    total: "198",
     equipo: "ferrari"
 },
 {
@@ -32,6 +33,7 @@ Driver.create!([{
     gestion_combustible: "33",
     gestion_neumaticos: "33",
     capacidad_clima_humeda: "31",
+    total: "185",
     equipo: "ferrari"
 },
 {
@@ -45,6 +47,7 @@ Driver.create!([{
     gestion_combustible: "25",
     gestion_neumaticos: "31",
     capacidad_clima_humeda: "16",
+    total: "140",
     equipo: "Alfa Romeo"
 },
 {
@@ -58,6 +61,7 @@ Driver.create!([{
     gestion_combustible: "10",
     gestion_neumaticos: "8",
     capacidad_clima_humeda: "2",
+    total: "42",
     equipo: "Alfa Romeo"
 },
 {
@@ -71,6 +75,7 @@ Driver.create!([{
     gestion_combustible: "36",
     gestion_neumaticos: "30",
     capacidad_clima_humeda: "23",
+    total: "180",
     equipo: "Alpine"
 },
 {
@@ -84,6 +89,7 @@ Driver.create!([{
     gestion_combustible: "34",
     gestion_neumaticos: "32",
     capacidad_clima_humeda: "21",
+    total: "158",
     equipo: "Alpine"
 },
 {
@@ -97,6 +103,7 @@ Driver.create!([{
     gestion_combustible: "32",
     gestion_neumaticos: "38",
     capacidad_clima_humeda: "22",
+    total: "182",
     equipo: "Alpha Tauri"
 },
 {
@@ -110,6 +117,7 @@ Driver.create!([{
     gestion_combustible: "23",
     gestion_neumaticos: "22",
     capacidad_clima_humeda: "11",
+    total: "118",
     equipo: "Alpha Tauri"
 },
 {
@@ -123,6 +131,7 @@ Driver.create!([{
     gestion_combustible: "27",
     gestion_neumaticos: "27",
     capacidad_clima_humeda: "27",
+    total: "160",
     equipo: "Aston Martin F1"
 },
 {
@@ -136,6 +145,7 @@ Driver.create!([{
     gestion_combustible: "23",
     gestion_neumaticos: "23",
     capacidad_clima_humeda: "22",
+    total: "138",
     equipo: "Aston Martin F1"
 },
 {
@@ -149,6 +159,7 @@ Driver.create!([{
     gestion_combustible: "15",
     gestion_neumaticos: "14",
     capacidad_clima_humeda: "3",
+    total: "58",
     equipo: "Hass"
 },
 {
@@ -162,6 +173,7 @@ Driver.create!([{
     gestion_combustible: "4",
     gestion_neumaticos: "2",
     capacidad_clima_humeda: "9",
+    total: "34",
     equipo: "Hass"
 },
 {    
@@ -175,6 +187,7 @@ Driver.create!([{
     gestion_combustible: "41",
     gestion_neumaticos: "39",
     capacidad_clima_humeda: "32",
+    total: "202",
     equipo: "Mclaren F1"
 },
 {
@@ -188,6 +201,7 @@ Driver.create!([{
     gestion_combustible: "33",
     gestion_neumaticos: "37",
     capacidad_clima_humeda: "24",
+    total: "163",
     equipo: "Mclaren F1"
 },
 {
@@ -201,6 +215,7 @@ Driver.create!([{
     gestion_combustible: "33",
     gestion_neumaticos: "36",
     capacidad_clima_humeda: "28",
+    total: "207",
     equipo: "Mercedes Benz F1"
 },
 {
@@ -214,6 +229,7 @@ Driver.create!([{
     gestion_combustible: "32",
     gestion_neumaticos: "37",
     capacidad_clima_humeda: "30",
+    total: "202",
     equipo: "Mercedes Benz F1"
 },
 {
@@ -227,6 +243,7 @@ Driver.create!([{
     gestion_combustible: "34",
     gestion_neumaticos: "42",
     capacidad_clima_humeda: "25",
+    total: "205",
     equipo: "RedBull F1"
 },
 {
@@ -240,6 +257,7 @@ Driver.create!([{
     gestion_combustible: "28",
     gestion_neumaticos: "35",
     capacidad_clima_humeda: "28",
+    total: "178",
     equipo: "RedBull F1"
 },
 {
@@ -253,6 +271,7 @@ Driver.create!([{
     gestion_combustible: "18",
     gestion_neumaticos: "24",
     capacidad_clima_humeda: "17",
+    total: "98",
     equipo: "Williams F1"
 },
 {
@@ -266,6 +285,7 @@ Driver.create!([{
     gestion_combustible: "13",
     gestion_neumaticos: "22",
     capacidad_clima_humeda: "10",
+    total: "78",
     equipo: "Williams F1"
 },
 ])
