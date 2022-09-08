@@ -7,9 +7,9 @@
     <%= link_to "Edit this room", edit_room_path(@room) %> |
     <%= link_to "Back to rooms", rooms_path %>
     -->
-
+    <%= turbo_frame_tag "game" do %>
     <%= render "game/index" %>
-
+    <% end %>
     <%= button_to "Eliminar esta sala", @room, method: :delete, class:"mt-5" %>
   </div>
 </div>
