@@ -13,19 +13,7 @@
  *= require_tree .
  *= require_self
  */
- #player1 { 
-    width: 100px; 
-    height: 100px; 
-    -webkit-border-radius: 50px; 
-    -moz-border-radius: 50px; 
-    border-radius: 50px; 
-    background: gray;
-}
-#player2 { 
-   width: 100px; 
-   height: 100px; 
-   -webkit-border-radius: 50px; 
-   -moz-border-radius: 50px; 
-   border-radius: 50px; 
-   background: gray;
+.card{
+    width: 100px;
+    height: 240px;
 }

@@ -1,10 +1,15 @@
-<p style="color: green"><%= notice %></p>
+<div class="container">
+  <p style="color: green"><%= notice %></p>
+  
+  <%= render @room %>
 
-<%= render @room %>
+  <!--<div>
+    <%= link_to "Edit this room", edit_room_path(@room) %> |
+    <%= link_to "Back to rooms", rooms_path %>
+    -->
 
-<div>
-  <%= link_to "Edit this room", edit_room_path(@room) %> |
-  <%= link_to "Back to rooms", rooms_path %>
+    <%= render "pilotos/index" %>
 
-  <%= button_to "Destroy this room", @room, method: :delete %>
+    <%= button_to "Destroy this room", @room, method: :delete %>
+  </div>
 </div>
