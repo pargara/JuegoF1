@@ -9,7 +9,7 @@
 Driver.destroy_all
 
 Driver.create!([{
-    url: "https://i.ibb.co/2PHMFmG/Untitled-10.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f2b1b013-683b-405c-8662-f4d743832320/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T154745Z&X-Amz-Expires=86400&X-Amz-Signature=4de800f035448a416e0368b4ef1ebb14828100073c2e2efc47d4a8a9856aba36&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "1",
     nombre: "Charles Leclerc",
     grupo: "2B",
@@ -23,7 +23,7 @@ Driver.create!([{
     equipo: "ferrari"
 },
 {
-    url: "https://i.ibb.co/VQNwgKx/Untitled-11.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fac0e72b-b152-4db1-a591-a5c2159674d1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T154825Z&X-Amz-Expires=86400&X-Amz-Signature=46cc4c97e61c041dbbea5449567f57997644212f5db1120731b552803655dd61&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "2",
     nombre: "Carlos Sainz",
     grupo: "2C",
@@ -37,7 +37,7 @@ Driver.create!([{
     equipo: "ferrari"
 },
 {
-    url: "https://i.ibb.co/vHqBKz8/Untitled-1.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/10539141-7207-4992-863d-14d03a7bc142/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T154909Z&X-Amz-Expires=86400&X-Amz-Signature=b9fed9e6cdef956917f109bd3461304eb559c1691fd0df0881ed2452fb4574f2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "3",
     nombre: "Valtteri Bottas",
     grupo: "1A",
@@ -51,7 +51,7 @@ Driver.create!([{
     equipo: "Alfa Romeo"
 },
 {
-    url: "https://i.ibb.co/jDNQKKP/Untitled-2.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f123b557-7c42-41de-986a-aed46ed9ca14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T154927Z&X-Amz-Expires=86400&X-Amz-Signature=dd81f665d01024616f5bde4347bbdb345123dcf1c261217d28bec14429867137&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "4",
     nombre: "Guanyo Zhou",
     grupo: "1B",
@@ -65,7 +65,7 @@ Driver.create!([{
     equipo: "Alfa Romeo"
 },
 {
-    url: "https://i.ibb.co/5W6Jwxn/Untitled-3.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/43f93e3a-b9be-402a-9e25-4c9eb3327e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155006Z&X-Amz-Expires=86400&X-Amz-Signature=00fe31706f88e997860fc502e4cbe84e1ef1fb51a89e31c92b77624ac3201ddd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "5",
     nombre: "Fernando Alonso",
     grupo: "1C",
@@ -79,7 +79,7 @@ Driver.create!([{
     equipo: "Alpine"
 },
 {
-    url: "https://i.ibb.co/2n2fp8p/Untitled-4.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4d233f17-3621-4a48-9158-1d899252d683/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155025Z&X-Amz-Expires=86400&X-Amz-Signature=6e10684bcc10a6964c374e7a108ef8d97eb97d68fcb275a9bc8ead0ceaa5995d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "6",
     nombre: "Esteban Ocon",
     grupo: "1D",
@@ -93,7 +93,7 @@ Driver.create!([{
     equipo: "Alpine"
 },
 {
-    url: "https://i.ibb.co/HqRfPBM/Untitled-5.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a64cf474-d1ff-472c-ab5d-8d00b80ecb51/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155044Z&X-Amz-Expires=86400&X-Amz-Signature=07c13d8808b15d3ddcfa8f4bf000a0ebc8dacfc39ecba1be8257c0a9b771429e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "7",
     nombre: "Pierre Gasly",
     grupo: "1E",
@@ -107,7 +107,7 @@ Driver.create!([{
     equipo: "Alpha Tauri"
 },
 {
-    url: "https://i.ibb.co/NsZcsPS/Untitled-6.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d941a30b-b269-49c0-9fc4-342376e54bde/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155106Z&X-Amz-Expires=86400&X-Amz-Signature=cf8629c42747e7ad5b2292b8e741cfb6c1ddda3ba4383aa35d7a246bd26007d4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "8",
     nombre: "Yuki Tsunoda",
     grupo: "1F",
@@ -121,7 +121,7 @@ Driver.create!([{
     equipo: "Alpha Tauri"
 },
 {
-    url: "https://i.ibb.co/0nqN7dr/Untitled-7.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e0f3ce93-8b5f-47d8-b7eb-e6daeafdfd9b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155304Z&X-Amz-Expires=86400&X-Amz-Signature=802bb39dcb6215948fb8258e634e8e7672d561717782eca88125fc86027aa0cc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "9",
     nombre: "Sebastian Vettel",
     grupo: "1G",
@@ -135,7 +135,7 @@ Driver.create!([{
     equipo: "Aston Martin F1"
 },
 {
-    url: "https://i.ibb.co/xzTjCyD/Untitled-8.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dba18797-107f-45e7-aba5-d224107e7143/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155317Z&X-Amz-Expires=86400&X-Amz-Signature=2766ca6bf1c6507bc4a78841e0bff70a15eb9a81d94c4ea615940770c0cdf898&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "10",
     nombre: "Lance Stroll",
     grupo: "1H",
@@ -149,7 +149,7 @@ Driver.create!([{
     equipo: "Aston Martin F1"
 },
 {
-    url: "https://i.ibb.co/M1hZQ9N/Untitled-9.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/757d2eb4-bef9-4fce-8538-511d3134b5c8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155430Z&X-Amz-Expires=86400&X-Amz-Signature=f6dbf9f029ce91c991b7399541db7346d91639980835a0ad63e406a2dcb5b3a4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "11",
     nombre: "Kevin Magnussen",
     grupo: "2A",
@@ -163,7 +163,7 @@ Driver.create!([{
     equipo: "Hass"
 },
 {
-    url: "https://i.ibb.co/BsQ4PTb/Untitled-12.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d6103ebb-25df-4e56-94d2-9b5e0153267c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155616Z&X-Amz-Expires=86400&X-Amz-Signature=f3edd7eca9c3d63267d098275535ad8abb3d6cc54419d61f578535d06368ee2e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "12",
     nombre: "Mick Schumacher",
     grupo: "2D",
@@ -177,7 +177,7 @@ Driver.create!([{
     equipo: "Hass"
 },
 {    
-    url: "https://i.ibb.co/4WLyTf4/Untitled-13.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ea970133-a4c9-4dd5-8e75-1c674d5118e8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155634Z&X-Amz-Expires=86400&X-Amz-Signature=4e1a9935a3ceddf39cbd468d84cbb92f6d3949ea67f9263752f22e5e750048f4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "13",
     nombre: "Lando Norris",
     grupo: "2E",
@@ -191,7 +191,7 @@ Driver.create!([{
     equipo: "Mclaren F1"
 },
 {
-    url: "https://i.ibb.co/c6mcMVW/Untitled-14.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/05489605-59a1-4717-a16a-feef2b78a34d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155725Z&X-Amz-Expires=86400&X-Amz-Signature=8822f113e2df2145bf7e6822281288a5446b1af960fae52408d0f08c473ce788&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "14",
     nombre: "Daniel Ricciardo",
     grupo: "2F",
@@ -205,7 +205,7 @@ Driver.create!([{
     equipo: "Mclaren F1"
 },
 {
-    url: "https://i.ibb.co/gWHWRRm/Untitled-15.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe4bb0ef-443d-4339-a5b1-ae451164e6eb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155744Z&X-Amz-Expires=86400&X-Amz-Signature=f907dfdd8b5558d3e2308ee82cfd9e1759ca9831bbad9ba7cd73e7431fb20ac5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "15",
     nombre: "Lewis Hamilton",
     grupo: "2G",
@@ -219,7 +219,7 @@ Driver.create!([{
     equipo: "Mercedes Benz F1"
 },
 {
-    url: "https://i.ibb.co/K7nfD0D/Untitled-16.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/02d6e5ff-c886-4b58-83da-9afc18eb9785/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155811Z&X-Amz-Expires=86400&X-Amz-Signature=f054c3471a8feb5f3867ec89a5d5e5aebb1d0ef92361df62b9532285b4ddc4d4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "16",
     nombre: "George Russel",
     grupo: "2H",
@@ -233,7 +233,7 @@ Driver.create!([{
     equipo: "Mercedes Benz F1"
 },
 {
-    url: "https://i.ibb.co/mzJS2x1/Untitled-17.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/684390a4-b8d7-4de8-85b8-3f1b77ec9f4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155835Z&X-Amz-Expires=86400&X-Amz-Signature=bd1c7c9a3611f91ef21a049cc99c8fc34c599df5b3fa5ecfa3dc3d9292673e6b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "17",
     nombre: "Max Verstappen",
     grupo: "3A",
@@ -247,7 +247,7 @@ Driver.create!([{
     equipo: "RedBull F1"
 },
 {
-    url: "https://i.ibb.co/fCNqgR9/Untitled-18.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8d001aa0-6971-4785-8443-97194e1bb186/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155857Z&X-Amz-Expires=86400&X-Amz-Signature=1478634d7391a307fd83d9bee14f01d4d2a890398dee8b7050099ded57c769a8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "18",
     nombre: "Sergio Perez",
     grupo: "3B",
@@ -261,7 +261,7 @@ Driver.create!([{
     equipo: "RedBull F1"
 },
 {
-    url: "https://i.ibb.co/q72Gm1g/Untitled-19.png",
+    url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/343ae2b9-e0b9-42c7-8fcc-ab7651d28565/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155916Z&X-Amz-Expires=86400&X-Amz-Signature=9a9f85f72caccea35bb0826d1fffa1d376ebccec748bfae006b3fad033b7361a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "19",
     nombre: "Nicholas Latifi",
     grupo: "",
@@ -275,7 +275,7 @@ Driver.create!([{
     equipo: "Williams F1"
 },
 {
-    url:"https://i.ibb.co/Fh65PHd/Untitled-20.png",
+    url:"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ea2b195c-1284-4d05-81c4-cf90026a5d50/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T155931Z&X-Amz-Expires=86400&X-Amz-Signature=56c9431163d636e8ef2635d9a16080ca7e8d6d4beac9d4c91ea8d669cd7db30e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject",
     id: "20",
     nombre: "Alex Albon",
     grupo: "",
