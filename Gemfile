@@ -13,7 +13,7 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -55,6 +55,7 @@ gem 'cancancan'
 
 # Gema para visualizar el esquema de los modelos
 group :development do
+  gem "sqlite3", "~> 1.4"
   gem 'annotate'
 end
 # Gema devise autentificacion
@@ -75,6 +76,10 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+end
+
+group :production do
+ gem "pg"
 end
 
 group :test do
